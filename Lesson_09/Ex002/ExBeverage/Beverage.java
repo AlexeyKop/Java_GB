@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public abstract class Beverage implements Iterator<Ingredient> {
+    public abstract class Beverage implements Iterator<Ingredient> {
     List<Ingredient> components;
     int index;
     public Beverage() {

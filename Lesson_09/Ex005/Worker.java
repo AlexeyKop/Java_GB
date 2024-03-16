@@ -1,6 +1,6 @@
 package Lesson_09.Ex005;
 
-public class Worker implements Comparable<Worker> {
+public class Worker  {  // implements Comparable<Worker>
     public String firstName;
     public String lastName;
     public int age;
@@ -25,13 +25,15 @@ public class Worker implements Comparable<Worker> {
         return String.format("\n%s %d %d", fullName(), age, salary);
     }
 
-    @Override
+/*    @Override
     public int compareTo(Worker o) {
+//        return Integer.compare(this.salary, o.salary);
+
         if (this.age > o.age)
             return 1;
         else if (this.age < o.age)
             return -1;
         else
             return 0;
-    }
+    }*/
 }

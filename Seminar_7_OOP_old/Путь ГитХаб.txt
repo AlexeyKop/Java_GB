@@ -1,0 +1,5 @@
+https://github.com/AlexeyKop/Java_GB/tree/7a37f945dcc2d0ce89440f68fe500c34e63a0210/Seminar_7_OOP
+
+https://github.com/AlexeyKop/Java_GB/tree/7a37f945dcc2d0ce89440f68fe500c34e63a0210/Seminar_7_OOP
+
+The directory <Project>\Seminar_7_OOP is registered as a Git root, but no Git repositories were found there.

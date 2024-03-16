@@ -10,9 +10,9 @@ import java.util.Iterator;
 public class Program {
     public static void main(String[] args) {
         Coffee latte = new Coffee();
-        latte.addComponent(new Water("вода"));
-        latte.addComponent(new Вeans("Зерна"));
-        latte.addComponent(new Milk("Молоко"));
+        latte.addComponent(new Water("ВодаВода"));
+        latte.addComponent(new Вeans("ЗернаЗерна"));
+        latte.addComponent(new Milk("МолокоMilk"));
 
 //        Iterator<Ingredient> iterator = latte;
 //        while (iterator.hasNext()){

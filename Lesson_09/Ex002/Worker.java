@@ -8,7 +8,7 @@ public class Worker implements Iterator<String> {
     public int age;
     public int salary;
 
-    public Worker(String firstName, // конструктор
+    public Worker(String firstName,   // конструктор
             String lastName,
             int age,
             int salary) {
@@ -16,6 +16,7 @@ public class Worker implements Iterator<String> {
         this.lastName = lastName;
         this.age = age;
         this.salary = salary;
+
         this.index = 0;
     }
 
