@@ -1,0 +1,12 @@
+февр. 20, 2024 9:26:34 PM Sem_2_5_LogFile writeToFile
+WARNING: Ошибка записи в файл
+февр. 20, 2024 9:28:14 PM Sem_2_5_LogFile writeToFile
+WARNING: Ошибка записи в файл
+февр. 20, 2024 9:32:50 PM Sem_2_5_LogFile writeToFile
+INFO: Данные в файле!
+февр. 24, 2024 6:43:30 PM Sem_2_5_LogFile writeToFile
+INFO: Данные в файле!
+февр. 24, 2024 6:46:42 PM Sem_2_5_LogFile writeToFile
+WARNING: Ошибка записи в файл
+февр. 24, 2024 9:54:43 PM Sem_2_5_LogFile writeToFile
+INFO: Данные в файле!

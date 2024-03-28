@@ -1,0 +1,23 @@
+.idea
+file.txt
+Lesson_02_basAPI
+Lesson_01_Beginning.Les_1.java
+Lesson_01_Beginning.Les_1_lib.java
+Lesson_02_basAPI.Les_2_basicAPI.java
+log.txt
+Logi.txt
+Logi.txt.lck
+out
+Sem_1_Beginning.Sem_1_2.java
+Sem_1_Beginning.Sem_1_3.java
+Sem_1_Beginning.Sem_1_4.java
+Sem_2_1_AlternatingChars.java
+Sem_2_2_CompressString.java
+Sem_2_3_Palindrom.java
+Sem_2_4_TextToFile.java
+Sem_2_5_LogFile.java
+Sem_2_6_HW_SqlRequest.java
+Sem_2_7_HW_BubbleSort.java
+TEST100.txt
+TextFolder.txt
+Исключения в программировании и их обработка (Java)
