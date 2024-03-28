@@ -7,7 +7,7 @@ public abstract class Ingredient {
         this.brand = brand;
     }
 
-    @Override
+    @Override   // переопределение метода toString
     public String toString() {
         return brand;
     }

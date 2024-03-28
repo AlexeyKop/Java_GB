@@ -27,6 +27,7 @@ public class StudentGroupIterator implements Iterator<Student> {
         return studentList.get(count++);  // возвращает элемент и увеличивает индекс на 1.
     }
 
+    // удаляем текущий элемент
     @Override
     public void remove() {
         studentList.remove(count);

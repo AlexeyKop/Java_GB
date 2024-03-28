@@ -5,6 +5,7 @@ public class Student implements Comparable <Student>{
     private int studentId;
     private String name;
 
+    // конструктор
     public Student(int studentId, String name) {
         this.studentId = studentId;
         this.name = name;
@@ -29,7 +30,7 @@ public class Student implements Comparable <Student>{
     @Override
     public int compareTo(Student o) {
 
-        ////return studentId.compareTo(o.getStudentId());
+        ////return studentId.compareTo(o.getStudentId()); если бы мы в 6-й строке прописали: private Integer studentId;
 
         if(studentId > o.getStudentId())
             return 1;

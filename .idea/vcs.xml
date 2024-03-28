@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sem_9_IterComar_clone" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Seminar_7_OOP" vcs="Git" />
   </component>
 </project>

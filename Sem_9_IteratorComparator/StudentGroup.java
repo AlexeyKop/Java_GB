@@ -7,11 +7,13 @@ import java.util.List;
 public class StudentGroup implements Iterable<Student>{
     private List<Student> studentList;
 
-    public StudentGroup(List<Student> studentList) { // конструктор создает группу студентов по готовому списку
+    // конструктор создает группу студентов по готовому списку
+    public StudentGroup(List<Student> studentList) {
         this.studentList = studentList;
     }
 
-    public StudentGroup() {     // конструктор создает группу студентов по пустому списку
+    // конструктор создает группу студентов по пустому списку
+    public StudentGroup() {
         studentList = new ArrayList<>();
     }
 

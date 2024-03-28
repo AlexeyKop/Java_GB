@@ -2,6 +2,7 @@ package Sem_9_IteratorComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -23,12 +24,13 @@ public class Main {
             System.out.println(student);
         }
         System.out.println("=================");
-
+        System.out.println("Сортировка по ID");
         for (Student student : getSortedStudentGroup(studentGroup)) {
             System.out.println(student);
         }
 
         System.out.println("=================");
+        System.out.println("Сортировка по Имени");
 
         for (Student student : getSortedStudentGroupByName(studentGroup)) {
             System.out.println(student);
@@ -36,6 +38,7 @@ public class Main {
     }
 
     public static List<Student> getSortedStudentGroup(StudentGroup s) {
+        // Создаем новый массив, и сортируем уже его, чтоб не трогать первоначальный список студентов.
         List<Student> studentList = new ArrayList<>(s.getStudentList());
         Collections.sort(studentList);
         return studentList;
@@ -45,5 +48,14 @@ public class Main {
         List<Student> studentList = new ArrayList<>(studentGroup.getStudentList());
         studentList.sort(new StudentComporator());
         return studentList;
+
+        // можно сделать сравнение на месте через анонимный класс
+//        studentList.sort(new Comparator<Student>() {
+//            @Override
+//            public int compare(Student o1, Student o2) {
+//                return 0;
+//            }
+//        });
+
     }
 }
