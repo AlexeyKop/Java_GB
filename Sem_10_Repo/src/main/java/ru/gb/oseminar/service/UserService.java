@@ -1,5 +1,7 @@
 package ru.gb.oseminar.service;
 
+import ru.gb.oseminar.data.User;
+
 import java.time.LocalDate;
 import java.util.List;
 

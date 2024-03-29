@@ -8,27 +8,27 @@ import java.util.List;
 
 public class TeacherService implements UserService<Teacher> {
 
-    private final List<Teacher>teacher;
+    private final List<Teacher>teachers;
 
     public TeacherService() {
-        this.teacher = new ArrayList<>();
+        this.teachers = new ArrayList<>();
     }
 
     @Override
     public List<Teacher> getAll() {
-        return teacher;
+        return teachers;
     }
 
     @Override
     public void create(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
         Long countMaxId = 0L;
-        for (Teacher teacher: teacher){
+        for (Teacher teacher: teachers){
             if (teacher.getTeacherId() > countMaxId){
                 countMaxId = teacher.getTeacherId();
             }
         }
         countMaxId++;
-        Teacher teacher = new Teacher(firstName, secondName, patronymic, dateOfBirth, countMaxId);
-        teacher.add(teacher);
+        Teacher teacher = new Teacher(firstName, secondName, patronymic, dateOfBirth);
+        teachers.add(teacher);
     }
 }
