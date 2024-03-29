@@ -1,4 +1,4 @@
-package ru.gb.oseminar.view;
+package Sem_10_Generics.OOPSeminar4.src.main.java.ru.gb.oseminar.view;
 
 import ru.gb.oseminar.data.Student;
 import ru.gb.oseminar.data.StudentGroup;
